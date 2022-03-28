@@ -14,6 +14,38 @@ p {
   padding: 0;
 }
 
+button {
+  display: inline-block;
+  border: none;
+  /* padding: 1rem 2rem; */
+  /* margin: 0; */
+  text-decoration: none;
+  background: darkslategray;
+  color: #ffffff;
+  /* font-family: monospace; */
+  /* font-size: 1rem; */
+  cursor: pointer;
+  text-align: center;
+  transition: background 250ms ease-in-out, transform 150ms ease;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+
+button:hover {
+  background: #0053ba;
+  transform: scale(1.02);
+}
+
+button:active {
+  background: black;
+  transform: scale(1);
+}
+
+/* button:focus {
+  outline: 1px solid #fff;
+  outline-offset: -4px;
+} */
+
 .calculator {
   /* margin: auto auto; */
   /* position: absolute;
@@ -37,7 +69,7 @@ p {
   margin-top: 20px;
 }
 
-.display {
+.display-window {
   /* justify-self: start; */
   /* margin-top: 100px; */
   /* padding: 0 15px; */
@@ -48,7 +80,7 @@ p {
   background-color: white;
 }
 
-.display p {
+.display-window p {
   margin-right: 10px;
   font-family: monospace;
   font-size: 2rem;
