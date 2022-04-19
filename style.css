@@ -1,6 +1,14 @@
+html {
+  height: -webkit-fill-available;
+  height: moz-fill-available;
+  height: fill-available;
+}
+
 body {
+  height: -webkit-fill-available;
+  height: moz-fill-available;
+  height: fill-available;
   display: flex;
-  height: 100vh;
   justify-content: center;
   align-items: center;
 }
